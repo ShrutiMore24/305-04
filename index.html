@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        .mainNavbarContainer {
+            width: 100%;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            height: 10vh;
+            background-color: rgb(98, 150, 248);
+        }
+
+        .box1 {
+            min-width: 110px;
+            height: 100%;
+        }
+
+        .box2 {
+            max-width: 1248px;
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .box2innerDiv {
+            height: 100%;
+            width: 100px;
+            display: flex;
+ 
+        }
+
+
+        .innerOneimg {
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+        }
+
+        .st {
+            color: beige;
+            font-style: italic;
+            letter-spacing: 1px;
+            padding: 2px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .nd {
+            color: beige;
+            font-style: italic;
+            font-size: 12px;
+        }
+
+        .nd span {
+            color: rgb(240, 175, 36);
+        }
+
+        .one {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .two {
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            flex-direction: row;
+        }
+
+        .three {
+            width: 160px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .four {
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .five {
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .six {
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .inp {
+            width: 90%;
+            background-color: white;
+            margin: 8px 10px;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        .two .inp {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .two span {
+            font-size: 13px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="mainNavbarContainer">
+            <div class="box box1"></div>
+            <div class="box box2">
+                <div class="box2innerDiv one">
+                    <div class="innerOneimg st ">Flipkart</div>
+                    <div class="innerOneimg nd">Explore <span>Plus</span>
+                    </div>
+                </div>
+
+
+
+                <div class="box2innerDiv two">
+                    <div class="inp"><span> Search for products, brands and more</span>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+
+
+                <div class="box2innerDiv three">Become a seller</div>
+                <div class="box2innerDiv four">More &nbsp <i class="fa-solid fa-angle-down"></i></div>
+                <div class="box2innerDiv five"><i class="fa-solid fa-cart-shopping"></i></div>
+                <div class="box2innerDiv six">Cart</div>
+            </div>
+            <div class="box box1"></div>
+
+        </div>
+    </div>
+
+
+    <div class="bottom-container">
+        <div class="bottom-center">
+            <div class="offrer">
+                <div class="offrer-img">
+                    <img src="offers.png" alt="">
+                </div>
+                <div class="offrer-link">
+                    <a href="#">Top offers</a>
+                </div>
+            </div>
+            <div class="grocery ">
+                <div class="grocery-img">
+                    <img src="grocery.png" alt="">
+                </div>
+                <div class="grocery-link">
+                    <a href="#">Grocery</a>
+                </div>
+            </div>
+            <div class="mobile ">
+                <div class="mobile-img">
+                    <img src="mobile.png" alt="">
+                </div>
+                <div class="mobile-link">
+                    <a href="#">Mobile</a>
+                </div>
+            </div>
+            <div class="fashion ">
+                <div class="fashion-img">
+                    <img src="fashion.png" alt="">
+                </div>
+                <div class="fashion-link">
+                    <select name="" id="">
+                        <option value="">Fashion</option>
+                    </select>
+                </div>
+            </div>
+            <div class="electronics ">
+                <div class="electronics-img">
+                    <img src="electonics.png" alt="">
+                </div>
+                <div class="electronics-link">
+                    <select name="" id="">
+                        <option value="">Electronics</option>
+                    </select>
+                </div>
+            </div>
+            <div class="home ">
+                <div class="home-img">
+                    <img src="home.png" alt="">
+                </div>
+                <div class="home-link">
+                    <select name="" id="">
+                        <option value="">Home</option>
+                    </select>
+                </div>
+            </div>
+            <div class="appliction ">
+                <div class="appliction-img">
+                    <img src="appliction.png" alt="">
+                </div>
+                <div class="appliction-link">
+                    <a href="#">Appliances</a>
+                </div>
+            </div>
+            <div class="travel ">
+                <div class="travel-img">
+                    <img src="travel.png" alt="">
+                </div>
+                <div class="travel-link">
+                    <a href="#">Travel</a>
+                </div>
+            </div>
+            <div class="beauty ">
+                <div class="beauty-img">
+                    <img src="beauty.png" alt="">
+                </div>
+                <div class="beauty-link">
+                    <select name="" id="">
+                        <option value="">Beauty&Toy</option>
+                    </select>
+                </div>
+            </div>
+            <div class="bike ">
+                <div class="bike-img">
+                    <img src="bike.png" alt="">
+                </div>
+                <div class="bike-link">
+                    <a href="#">2-Wheeler</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
